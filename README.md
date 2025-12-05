@@ -1,5 +1,7 @@
 ## Hi there 👋
 
+Ask me about: Nothing
+Pronuns: He/Him
 <!--
 **Hanumath1506/Hanumath1506** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
