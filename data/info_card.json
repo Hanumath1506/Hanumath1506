@@ -1,0 +1,13 @@
+{
+  "user": "hanumath",
+  "host": "github",
+  "fields": [
+    { "label": "Role", "value": "Software Engineer" },
+    { "label": "Stack", "value": "Python, TypeScript, Go, SQL" },
+    { "label": "Tools", "value": "Docker, AWS, Postgres, Git" },
+    { "label": "Focus", "value": "Backend systems & developer tooling" },
+    { "label": "Highlights", "value": "Open source contributor" },
+    { "label": "Highlights", "value": "Shipped production ML pipelines" },
+    { "label": "Highlights", "value": "Enjoys clean, readable code" }
+  ]
+}

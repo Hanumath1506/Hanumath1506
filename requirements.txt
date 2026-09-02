@@ -1,0 +1,10 @@
+# scripts/prep_photo.py
+rembg
+onnxruntime
+opencv-python-headless
+numpy
+pillow
+
+# scripts/fetch_contributions.py
+requests
+beautifulsoup4
