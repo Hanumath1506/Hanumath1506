@@ -1,29 +1,12 @@
 <div align="center">
 
-```
-$ whoami
-```
+<h3><code>avi@github ~ $ ./contributions.sh</code></h3>
+<img src="assets/heatmap.svg" width="860" alt="Animated contribution heatmap" />
 
-<table>
-<tr>
-<td width="360" align="center">
+<br><br>
 
-<img src="assets/ascii-portrait.svg" width="340" alt="Animated ASCII portrait" />
-
-</td>
-<td width="360" align="center">
-
-<img src="assets/info-card.svg" width="340" alt="Neofetch-style info card" />
-
-</td>
-</tr>
-</table>
-
-```
-$ cat contributions.log
-```
-
-<img src="assets/heatmap.svg" width="720" alt="Animated contribution heatmap" />
+<h3><code>avi@github ~ $ whoami</code></h3>
+<img src="assets/info-card.svg" width="490" alt="Neofetch-style info card" />
 
 </div>
 
@@ -42,8 +25,6 @@ and every style is a plain SVG presentation attribute rather than `<style>` or
 
 | script | what it does |
 | --- | --- |
-| `scripts/prep_photo.py` | removes the background (`rembg`), boosts local contrast (CLAHE), composites on white |
-| `scripts/make_ascii_svg.py` | converts the prepped photo into a ~100×53 monochrome ASCII grid that wipes in row by row |
 | `scripts/make_info_card.py` | renders a neofetch-style panel whose lines fade + slide in on a stagger |
 | `scripts/fetch_contributions.py` | scrapes the public `github.com/users/<user>/contributions` fragment and writes `data/contributions.json` |
 | `scripts/render_heatmap_svg.py` | renders that JSON as a 53×7 heatmap with a diagonal slide-down reveal, legend, and stats footer |
